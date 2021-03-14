@@ -12,8 +12,8 @@ var fs = require('fs');
 function outhelp() {
     console.log('usage:\n');
     console.log('-v --version [show version]');
-    console.log('rmo libexample.a names --out=path_to_newfile');
-    console.log('rmo libexample.a a.o b.o c.o');
+    console.log('rmobj libexample.a names --out=path_to_newfile');
+    console.log('rmobj libexample.a a.o b.o c.o');
     console.log('libexample.a:库文件');
     console.log('names:文本文件列出要删除的.o文件名');
     console.log('out:输出文件,可选没有会覆盖源文件');
